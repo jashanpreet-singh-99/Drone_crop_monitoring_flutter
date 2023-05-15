@@ -1,6 +1,6 @@
 # Drone Crop Monitoring
 
-[![git repo](https://img.shields.io/badge/Flutter-Application-blue?style=for-the-badge&logo=github&logoColor=white) ](https://github.com/jashanpreet-singh-99/Drone_crop_monitoring_flutter) [ ![git rep](https://img.shields.io/badge/Web-API-blue?style=for-the-badge&logo=github&logoColor=white) ](https://github.com/jashanpreet-singh-99/Drone_crop_monitoring_web_api) [![git repo](https://img.shields.io/badge/CNN-Model-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jashanpreet-singh-99/Drone_Crop_monitoring)   
+[![git flutter repo](https://img.shields.io/badge/Flutter-Application-blue?style=for-the-badge&logo=github&logoColor=white) ](https://github.com/jashanpreet-singh-99/Drone_crop_monitoring_flutter) [ ![git web rep](https://img.shields.io/badge/Web-API-blue?style=for-the-badge&logo=github&logoColor=white) ](https://github.com/jashanpreet-singh-99/Drone_crop_monitoring_web_api) [![git CNN repo](https://img.shields.io/badge/CNN-Model-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jashanpreet-singh-99/Drone_Crop_monitoring)   
 
 Please take author's permission before usign the code.
 
