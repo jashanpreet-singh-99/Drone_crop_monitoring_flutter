@@ -2,7 +2,7 @@
 
 ![Demo img](https://raw.githubusercontent.com/jashanpreet-singh-99/Drone_crop_monitoring_flutter/main/img_asset/Screenshot%202023-05-11%20at%201.03.39%20AM.png)
 
-[![git flutter repo](https://img.shields.io/badge/Flutter-Application-blue?style=for-the-badge&logo=github&logoColor=white) ](https://github.com/jashanpreet-singh-99/Drone_crop_monitoring_flutter) [ ![git web rep](https://img.shields.io/badge/Web-API-blue?style=for-the-badge&logo=github&logoColor=white) ](https://github.com/jashanpreet-singh-99/Drone_crop_monitoring_web_api) [![git CNN repo](https://img.shields.io/badge/CNN-Model-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jashanpreet-singh-99/Drone_Crop_monitoring)   
+[![git flutter repo](https://raw.githubusercontent.com/jashanpreet-singh-99/Drone_crop_monitoring_flutter/main/img_asset/Screenshot%202023-05-15%20at%2010.55.34%20AM.png) ](https://github.com/jashanpreet-singh-99/Drone_crop_monitoring_flutter) [ ![git web rep](https://raw.githubusercontent.com/jashanpreet-singh-99/Drone_crop_monitoring_flutter/main/img_asset/Screenshot%202023-05-15%20at%2010.55.55%20AM.png)](https://github.com/jashanpreet-singh-99/Drone_crop_monitoring_web_api) [![git CNN repo](https://raw.githubusercontent.com/jashanpreet-singh-99/Drone_crop_monitoring_flutter/main/img_asset/Screenshot%202023-05-15%20at%2010.56.34%20AM.png)](https://github.com/jashanpreet-singh-99/Drone_Crop_monitoring)   
 
 Please take author's permission before usign the code.
 
