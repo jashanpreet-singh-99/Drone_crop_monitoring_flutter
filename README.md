@@ -61,7 +61,7 @@ Once the user selects the specific farm for drone deployment, they gain access t
    
     The "Abort Drone" button initiates an immediate cessation of the drone's ongoing flight plan, directing it to return promptly to the designated charging dock. This functionality serves to ensure a swift and secure retrieval of the drone, enabling subsequent redeployment if deemed necessary.
 
-![Drone Stats](https://github.com/jashanpreet-singh-99/Drone_crop_monitoring_flutter/blob/main/img_asset/drone_stat.png?raw=true)
+![Drone Stats](https://raw.githubusercontent.com/jashanpreet-singh-99/Drone_crop_monitoring_flutter/main/img_asset/drone_stat.png)
 
 The comprehensive top control panel depicted in the figure above provides users with a holistic view of the drone's status and crucial farm-related information. This centralized interface serves as a valuable resource for monitoring and managing the drone's operations in real-time.
 
