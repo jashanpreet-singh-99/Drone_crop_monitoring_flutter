@@ -1,5 +1,7 @@
 # Drone Crop Monitoring
 
+![Demo img](https://raw.githubusercontent.com/jashanpreet-singh-99/Drone_crop_monitoring_flutter/main/img_asset/Screenshot%202023-05-11%20at%201.03.39%20AM.png)
+
 [![git flutter repo](https://img.shields.io/badge/Flutter-Application-blue?style=for-the-badge&logo=github&logoColor=white) ](https://github.com/jashanpreet-singh-99/Drone_crop_monitoring_flutter) [ ![git web rep](https://img.shields.io/badge/Web-API-blue?style=for-the-badge&logo=github&logoColor=white) ](https://github.com/jashanpreet-singh-99/Drone_crop_monitoring_web_api) [![git CNN repo](https://img.shields.io/badge/CNN-Model-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jashanpreet-singh-99/Drone_Crop_monitoring)   
 
 Please take author's permission before usign the code.
@@ -81,4 +83,38 @@ By providing a comprehensive array of real-time information and valuable functio
 
 ## Flask Web API
 
+The Flask API is hosted on an Azure virtual machine (VM) that incorporates a local SQL Server deployment. This configuration enables the Flask API to establish a robust data pipeline between the drone and the Farm database. By leveraging the local SQL Server, the Flask API serves as a central hub for data integration and synchronization.
+
+The various routes exposed by the Flask API play a pivotal role in facilitating data entry points for the SQL Server. These routes are meticulously designed to ensure a consistent state is maintained, even in scenarios where multiple drones attempt to update the same database concurrently. To mitigate potential issues such as dirty reads or lost updates, the system employs advanced locking mechanisms during data insertions. This approach guarantees data integrity and enables seamless collaboration among multiple drone units.
+
+Through this well-engineered architecture, the system achieves a high level of reliability, scalability, and data consistency. The Azure VM, coupled with the local SQL Server deployment, provides a robust foundation for data management, while the Flask API acts as a secure and efficient interface, ensuring smooth data flow and synchronization between the drone and the Farm database.
+
+The drone establishes a vital connection with the Flask API to retrieve essential data pertaining to the farms. Simultaneously, the drone also updates the relevant data to the same Flask API, thereby establishing a centralized dependency. While this architecture introduces a central dependency factor, it is important to note that for applications such as crop monitoring, the workload generated is not expected to be significantly intensive, mitigating the likelihood of encountering substantial issues.
+
+To ensure the robustness and scalability of the system, further enhancements can be implemented within the Flask API. By incorporating mechanisms for horizontal scaling, the API can effortlessly handle increased loads as the demand grows. Additionally, introducing a replicated state architecture enables the API to maintain a redundant and synchronized data state across multiple instances. This approach ensures minimal downtime and enhances the overall availability and reliability of the system.
+
+By proactively addressing potential scalability concerns and implementing redundancy measures, the Flask API becomes well-equipped to handle evolving requirements and fluctuations in workload. Consequently, it guarantees optimal performance, seamless data retrieval and update processes, and minimal disruptions in critical functionalities, thereby bolstering the effectiveness and reliability of the crop monitoring application.
+
 ## 3D Simulator
+
+![Demo img](https://raw.githubusercontent.com/jashanpreet-singh-99/Drone_crop_monitoring_flutter/main/img_asset/Screenshot%202023-05-11%20at%201.03.56%20AM.png)
+
+The simulator offers intuitive control mechanisms through the utilization of manual controls directly integrated within the system. The user can effortlessly navigate and manipulate the simulator using the "AWSD keys" on their input device. This user-friendly approach enhances the overall user experience, enabling seamless interaction with the simulated environment.
+
+To further enhance the immersive nature of the farm simulation, a variety of 3D objects have been meticulously incorporated. These objects, such as wooden barrels, metal tanks, and wooden boxes, contribute to the realism and authenticity of the virtual agricultural setting. Their presence within the simulated farm environment adds depth and visual appeal, creating a more engaging and captivating experience for users.
+
+Moreover, the simulator screen features a comprehensive user interface (UI) that displays real-time drone statistics. These UI elements provide essential information regarding the drone's performance, including vital metrics such as altitude, speed, battery status, and other relevant parameters. By presenting this data in a clear and accessible manner, users can effectively monitor and analyze the drone's operational characteristics, enabling them to make informed decisions and optimize their farming practices accordingly.
+
+The thoughtful integration of manual controls, immersive 3D objects, and real-time UI elements in the simulator exemplifies the project's commitment to delivering a professional-grade, interactive solution. This cohesive blend of functionality and visual aesthetics creates a compelling virtual environment that closely mirrors real-world farming scenarios, elevating the overall user experience and promoting a deeper understanding of agricultural operations.
+
+![Camera img](https://raw.githubusercontent.com/jashanpreet-singh-99/Drone_crop_monitoring_flutter/main/img_asset/Screenshot%202023-05-11%20at%201.04.40%20AM.png)
+
+In addition, the simulator incorporates a visually informative representation of the camera feed captured by the drone, elegantly displayed in the top left section. This live camera feed plays a pivotal role as it serves as the input to the deployed CNN model for the purpose of obtaining accurate classification results. By leveraging this real-time feed, the system enables prompt and efficient disease detection within the agricultural crops.
+
+Moreover, the simulator goes above and beyond in terms of visual fidelity by incorporating meticulously designed crop models. These models are meticulously textured, portraying two distinct types: diseased texture models and healthy texture models. This attention to detail allows for a visually immersive experience, aiding in the identification and differentiation of diseased and healthy crops within the simulated environment.
+
+To further enhance the realistic ambiance, the terrain within the simulator is thoughtfully crafted with additional aesthetic features. This includes simulated water erosion patterns, seamlessly integrated into the virtual landscape, adding a touch of authenticity. Furthermore, strategically placed high bump textures on the terrain contribute to a more lifelike representation, providing a visually engaging and immersive experience for users.
+
+The integration of these visual and aesthetic elements not only elevates the overall realism of the simulator but also enhances the user's ability to accurately assess and comprehend the condition of the crops. By leveraging advanced graphical techniques and attention to detail, the simulator aims to deliver an immersive and informative environment for users, facilitating effective decision-making processes and promoting a deeper understanding of the agricultural landscape.
+
+![abort statison](https://raw.githubusercontent.com/jashanpreet-singh-99/Drone_crop_monitoring_flutter/main/img_asset/Screenshot%202023-05-11%20at%201.05.24%20AM.png)
