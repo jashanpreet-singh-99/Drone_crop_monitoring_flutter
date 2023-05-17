@@ -29,7 +29,7 @@ By harnessing the power of Flutter and strategically capitalizing on the abundan
 
 ### Add Farm Page
 
-![Add farm](https://github.com/jashanpreet-singh-99/Drone_crop_monitoring_flutter/blob/main/img_asset/map.png?raw=true)
+![Add farm](https://raw.githubusercontent.com/jashanpreet-singh-99/Drone_crop_monitoring_flutter/main/img_asset/map.png)
 
 #### Usage
 
